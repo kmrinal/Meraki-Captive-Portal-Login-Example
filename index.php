@@ -28,7 +28,6 @@ if((isset($_GET['base_grant_url'])) && (isset($_GET['node_id'])) && (isset($_GET
 }
 ?>
 
-
 <!DOCTYPE html>
 <html>
 <head>
