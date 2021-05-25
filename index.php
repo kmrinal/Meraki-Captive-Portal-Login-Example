@@ -79,7 +79,7 @@ if((isset($_GET['base_grant_url'])) && (isset($_GET['node_id'])) && (isset($_GET
                  <p> Click-through Captive portal login for Meraki WiFi routers.</p>
                </div>
                <div class="wow-btn text-center">
-                    <form action="authorize.php">
+                    <form action="authorize.php" method="POST">
                         <input type="hidden" name="base_url" value="<?php echo $base_url;?>">
                         <input type="hidden" name="continue_url" value="<?php echo $continue_url;?>">
                         <input type="hidden" name="session_duration" value="<?php echo $session_duration;?>">
