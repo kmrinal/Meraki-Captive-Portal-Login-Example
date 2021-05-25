@@ -59,7 +59,7 @@ if((isset($_GET['base_grant_url'])) && (isset($_GET['node_id'])) && (isset($_GET
                     <div id="mySidenav" class="sidenav text-center">
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
                         <a href="#">About</a><hr>
-                                    
+                        <a href="#">Contact Us</a><hr>
                     </div>
                     <div class="main" id="main">
                       <a href="#" onclick="openNav()">MENU &#9776;</a>
